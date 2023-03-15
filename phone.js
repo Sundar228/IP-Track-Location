@@ -28,7 +28,7 @@ function phonenumber(inputtxt)
         document.getElementsByTagName('HEAD')[0].appendChild(link);
  
 }
-function ipaddress()
+function ipaddress1()
 {
   $.getJSON("http://ipinfo.io", function(data) {
         
